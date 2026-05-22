@@ -5,7 +5,8 @@ swc-paths-repro
 ├── apis
 │   └── auth.ts
 ├── bazel-out
-│   ├── apis -> ../apis
+│   ├── apis
+│   │   └── auth.ts -> ../../apis/auth.ts
 │   └── foo-app
 │       ├── src
 │       │   └── app.ts -> ../../../foo-app/src/app.ts
