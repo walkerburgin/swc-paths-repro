@@ -1,5 +1,7 @@
 # `swc-paths-repro`
 
+See: https://github.com/swc-project/swc/issues/11880
+
 ```
 swc-paths-repro
 ├── apis
