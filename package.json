@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "repro": "swc --config-file bazel-out/foo-app/swcrc.json bazel-out/foo-app/src/app.ts",
+        "repro:absolute": "swc --config-file bazel-out/foo-app/swcrc.json $PWD/bazel-out/foo-app/src/app.ts"
+    },
+    "dependencies": {
+        "@swc/cli": "0.8.1",
+        "@swc/core": "1.15.33"
+    }
+}
